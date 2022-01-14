@@ -1,0 +1,30 @@
+.left {
+    margin-left: 20px;
+}
+
+.centre {
+    text-align: center;
+}
+
+.margin {
+    margin-top: 15px;
+}
+
+.contour {
+    border: 2px solid black;
+    border-radius: 2px;
+    display: inline-block;
+    padding: 1px;
+}
+
+.image {
+    max-height: 100%;
+    width: auto;
+    margin: 20px;
+}
+
+.vide {
+    width: 80%;
+    height: auto;
+}
+

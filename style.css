@@ -17,9 +17,15 @@
     padding: 1px;
 }
 
+.contenere {
+    display:  inline-block;
+    background-color: #F8F9FA;
+    border-radius: 5px;
+}
+
 .image {
-    max-height: 100%;
-    width: auto;
+    width: 500px;
+    height: auto;
     margin: 20px;
 }
 

@@ -14,11 +14,9 @@
     padding: 20px;
 }
 
-.contour {
-    border: 2px solid black;
-    border-radius: 2px;
-    display: inline-block;
-    padding: 1px;
+.video2 {
+    width: 85%;
+    height: auto;
 }
 
 .contenere {
@@ -27,18 +25,44 @@
     border-radius: 5px;
 }
 
-.p {
-
-}
-
 .image {
     width: 500px;
     height: auto;
     margin: 20px;
 }
 
-.vide {
+.video {
     width: 80%;
+    height: auto;
+}
+
+.droite {
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.bas {
+    margin-bottom: 20px;
+}
+
+.listes {
+    list-style: none;
+}
+
+.droites {
+    margin-left: 5%;
+}
+
+.droites1 {
+    margin-left: 2%;
+}
+
+.bas2 {
+    margin-bottom: 2%;
+}
+
+.video {
+    width: 90px;
     height: auto;
 }
 

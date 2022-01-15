@@ -10,6 +10,10 @@
     margin-top: 15px;
 }
 
+.padding {
+    padding: 20px;
+}
+
 .contour {
     border: 2px solid black;
     border-radius: 2px;
@@ -21,6 +25,10 @@
     display:  inline-block;
     background-color: #F8F9FA;
     border-radius: 5px;
+}
+
+.p {
+
 }
 
 .image {

@@ -1,29 +1,24 @@
-.left {
-    margin-left: 20px;
-}
-
-.centre {
-    text-align: center;
-}
-
-.margin {
-    margin-top: 15px;
-}
-
-.padding {
-    padding: 20px;
-}
-
-.video2 {
-    width: 85%;
-    height: auto;
-}
+/* div grises */
 
 .contenere {
     display:  inline-block;
     background-color: #F8F9FA;
     border-radius: 5px;
+    margin-top: 15px;
+    margin-right: 10%;
+    margin-left: 10%;
 }
+
+/* Video */
+
+.video {
+    width: 85%;
+    height: auto;
+    margin-bottom: 2%;
+    margin-top: 15px;
+}
+
+/* Images sur accueil et activite */
 
 .image {
     width: 500px;
@@ -31,17 +26,16 @@
     margin: 20px;
 }
 
-.video {
-    width: 80%;
-    height: auto;
+/* Titres */
+
+.titre {
+    margin-top: 15px;
+    text-align: center;
 }
 
-.droite {
-    margin-right: 10%;
-    margin-left: 10%;
-}
+/* Résumé */
 
-.bas {
+.resume-box {
     margin-bottom: 20px;
 }
 
@@ -49,20 +43,23 @@
     list-style: none;
 }
 
-.droites {
+.sous-titre {
     margin-left: 5%;
 }
 
-.droites1 {
+.image_resume {
+    margin-bottom: 2%;
+    margin-top: 15px;
     margin-left: 2%;
 }
 
-.bas2 {
-    margin-bottom: 2%;
+/* Activite */
+
+.padding {
+    padding: 20px;
 }
 
-.videos {
-    width: 90px;
-    height: auto;
+.download-button {
+    margin-top: 15px;
+    margin-bottom: 20px;
 }
-

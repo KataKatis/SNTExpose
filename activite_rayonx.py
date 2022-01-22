@@ -15,15 +15,10 @@ if ret == True:
         if cap.isOpened():            
             
             frame = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
-            
-
-            if cv2.waitKey(1) == ord('q'):
-                break
 
 else:
     import cv2
     print("Impossible d'ouvrir la caméra !")
 
 frame = cv2.bitwise_not(frame)
-cv2.destroyAllWindows()
 cap = cv2.VideoCapture(0)

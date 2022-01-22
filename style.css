@@ -12,10 +12,7 @@
 /* Video */
 
 .video {
-    width: 85%;
-    height: auto;
-    margin-bottom: 2%;
-    margin-top: 15px;
+    margin: 15px;
 }
 
 /* Images sur accueil et activite */

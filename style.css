@@ -50,6 +50,18 @@
     margin-left: 2%;
 }
 
+.codespan {
+    color: crimson;
+    background-color: #dfe4ea;
+    padding: 2px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.codespan:hover {
+    color: crimson;
+}
+
 /* Activite */
 
 .padding {

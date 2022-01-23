@@ -26,7 +26,7 @@ def ascii(src, lignes=64, colonnes=260):
 
 
 
-cap = cv2.VideoCapture(0) # accéder à la webcam
+cap = cv2.VideoCapture(0) # acceder a la webcam
 
 if cap.isOpened(): # si on arrive a acceder a la webcam
     while True:

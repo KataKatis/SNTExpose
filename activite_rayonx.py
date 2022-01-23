@@ -10,7 +10,7 @@ if ret == True:
         import numpy as np
 
         else:
-            print("Impossible de récupérer la frame correctement !")
+            print("Impossible de recuperer la frame correctement !")
 
         if cap.isOpened():            
             
@@ -18,7 +18,7 @@ if ret == True:
 
 else:
     import cv2
-    print("Impossible d'ouvrir la caméra !")
+    print("Impossible d'ouvrir la camera !")
 
 frame = cv2.bitwise_not(frame)
 cap = cv2.VideoCapture(0)

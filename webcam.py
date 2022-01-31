@@ -34,13 +34,7 @@ if cap.isOpened(): # si on arrive a acceder a la webcam
         if ret == True:
             frame = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY) # videocapture en noir et blanc
 
-            #print(ascii(frame)) # afficher dans le terminal les caracteres ascii
-            video.append(ascii(frame))
-            print(nb)
-            nb +=1
-
-            if nb == 550:
-                break
+            print(ascii(frame)) # afficher dans le terminal les caracteres ascii
 
             if cv2.waitKey(1) == ord('q'): # 50 ms --> 20 fps
                 break

@@ -23,11 +23,28 @@
     margin: 20px;
 }
 
-/* Titres */
+/* Titres et footer */
 
 .titre {
     margin-top: 15px;
     text-align: center;
+}
+
+.autoring_div {
+    margin-left: 30%;
+}
+
+.autoring {
+    display: flex;
+}
+
+.autors {
+    margin: 5px;
+}
+
+.hr {
+    width: 90%;
+    margin-left: 5%;
 }
 
 /* Résumé */
@@ -94,4 +111,3 @@
 .lien:hover {
     color: #e67e22;
 }
-

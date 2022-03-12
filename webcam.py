@@ -1,7 +1,3 @@
-# Capture properties : https://docs.opencv.org/3.4/d4/d15/group__videoio__flags__base.html
-# Color Space Conversion : https://docs.opencv.org/3.4/de/d25/imgproc_color_conversions.html#color_convert_rgb_gray
-# Color conversions : https://docs.opencv.org/3.4/de/d25/imgproc_color_conversions.html#color_convert_rgb_gray
-
 import cv2
 import numpy as np
 

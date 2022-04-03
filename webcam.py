@@ -32,9 +32,6 @@ if cap.isOpened(): # si on arrive a acceder a la webcam
 
             print(ascii(frame)) # afficher dans le terminal les caracteres ascii
 
-            if cv2.waitKey(1) == ord('q'): # 50 ms --> 20 fps
-                break
-
         else: # si la frame ne peut pas etre recuperer
             print("Can't recuperate frame correctly !")
 

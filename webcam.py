@@ -40,4 +40,3 @@ else: # si cap.isOpened renvoie False
 
 
 cap.release()
-cv2.destroyAllWindows()

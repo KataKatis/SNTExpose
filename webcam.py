@@ -6,14 +6,14 @@ CHARACTERS_LIST = " .,:!=+%@" # caracteres ascii
 
 def ascii(src, lignes=64, colonnes=260):
     resultat = "" # chaine de caractere ascii affichee dans le terminal
-    hauteur, largeur = frame.shape # proprietes de l'image
+    hauteur, largeur = src.shape # proprietes de l'image
     cell_height = hauteur / lignes # nombre de pixels en hauteur pour une case
     cell_width = largeur / colonnes # nombre de pixels en largeur pour une case
 
     for y in range(lignes):
         for x in range(colonnes):
             depy, arry, depx, arrx = int(cell_height*y), int(cell_height*(y+1)), int(cell_width*x), int(cell_width*(x+1))
-            moyenne = int(np.mean(frame[depy:arry, depx:arrx])) # moyenne de gris pour un groupe de pixels
+            moyenne = int(np.mean(src[depy:arry, depx:arrx])) # moyenne de gris pour un groupe de pixels
             char = CHARACTERS_LIST[int(moyenne/(255/len(CHARACTERS_LIST))-0.1)] # determine le caractere a ajouter en fonction de la moyenne de gris
             resultat += char
         resultat += "\n"
